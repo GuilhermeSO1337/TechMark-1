@@ -1,0 +1,50 @@
+.ProfileInformation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:  379px;
+    height: 280px;
+}
+.ProfilePictureBorder{
+    /* display: block; */
+    /* position: absolute; */
+    left: 50%;
+    right: 50%;
+    bottom: -1%;
+    width: 165px;
+    height: 165px;
+    background:linear-gradient(75deg, #25CFFE,#FF1CDB);
+    outline: #fff solid 8px;
+    border-radius: 50%;
+}
+.ProfilePicture{
+    width: 100%;
+    height: 100%;
+}
+.ProfilePicture img{
+    position: relative;
+    left:5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+.ProfileInformation h2{
+    font-family: 'Poppins';
+    margin-top: 13px;
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.ProfileInformation p{
+    font-size: 24px;
+    font-family: 'Oxygen';
+    color: #8f8f8f;
+    font-weight: normal;
+}
+.ProfileInformation .Emphasis{
+    position: relative;
+    left:65%;
+    bottom: 30%;
+}

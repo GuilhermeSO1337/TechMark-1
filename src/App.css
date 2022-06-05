@@ -45,5 +45,9 @@ table {
 /* reset css ends */
 
 *{
-  transition: 2s ease;
+  transition: 0.2s ease;
+}
+:root{
+    --shadow-color:rgba(196, 196, 196,0.2);
+    --main-color: #0043c0;
 }

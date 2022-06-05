@@ -1,0 +1,67 @@
+/* font import from google fonts  */
+/* Poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* Oxygen */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+.Cover{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    overflow: hidden;
+}
+.Banner{
+        background: linear-gradient(rgba(0,0,0,0.47),rgba(0,0,0,0.47)), url(/src/img/Cover_image.jpg) no-repeat;
+        background-size: cover; 
+        width: 100%;
+        height: 250%;
+}
+/*Banner icons start*/
+.BannerIcons{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60px;
+    top: 32%;
+    bottom:55%;
+    left: 2%;
+    color: #fff;
+}
+.BannerIcons .WhatsappIcon{
+    margin-bottom: 14px;
+    width: 30px;
+    height: 30px;
+}
+.BannerIcons .WhatsappIcon:hover{
+    color: #25D366;
+}
+.BannerIcons .InstagramIcon{
+    margin-bottom: 14px;
+    width: 30px;
+    height: 30px;
+}
+.BannerIcons .InstagramIcon:hover{
+color: #C13584 ;
+}
+.BannerIcons .FacebookIcon{
+    margin-bottom: 14px;
+    width: 30px;
+    height: 30px;
+}
+.BannerIcons .FacebookIcon:hover{
+    color: #4267B2;
+}
+/*Banner icons ends*/
+/*Profile*/
+.ProfileFlexPosition{
+    display: flex;
+    justify-content: center;
+}
+.ProfilePosition{
+    position: absolute;
+    bottom: -13vh;
+}

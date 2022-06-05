@@ -1,10 +1,7 @@
-:root{
-    --shadow-color:rgba(196, 196, 196,0.4);
-    --main-color: #0043c0;
-}
 header{
     height: 40px;
     margin-top: 43px;
+    margin-bottom: 20vh;
 }
 .TopSection{
     margin-left: 43px;
@@ -47,7 +44,7 @@ a .Logo{
         width: 30px;
         margin-right: 3rem;
     }
-    .MenuBtn{
+    .MenuIcon{
         padding: 8px;
         background-color: var(--main-color);
         border-radius: 5px;
@@ -56,62 +53,31 @@ a .Logo{
         width: 30px;
     }
     .MenuDisplay{
-        position: absolute;
-        left: 50vh;
-        width: 30rem;
-        height: calc(100vh - 9.5rem);
+        display: flex;
+        flex-direction: column;
+        float: right;
+        width: 20rem;
+        height: 100vh;
         background-color: #EEE;
-        display: none;
+        box-shadow:var(--shadow-color);
+        transform: translateX(0vh);
     }
     /* Fim Icones mobile  */
 /* Fim seção de icones */
 .Hr{
     margin-top: 25px;
     margin-bottom: 0px;
-    border-color: rgba(196, 196, 196,0.2);;
+    border: 2px solid var(--shadow-color);
     box-shadow: 0 2px 4px var(--shadow-color);
 }
 /*Barra de pesquisa*/
- .SearchContainer{
-    margin-top: 27px;  
+.SearchBar{
+    margin-top: 2vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-} 
-
-.SearchBox{
-    justify-content: center;
-    align-items: center;
-    display:flex;
-    background-color: #E2E2E2;
-    height: 60px;
-    width: 690px;
-    border-radius: 33px;
-}
-.Search{
-    height: 60px;
-    width: 540px;
-    border: none;
-    outline: none;
-    background-color: transparent;
-}
-.SearchIcon{
-    position: relative;
-    left: 30px;
-    width: 15px;
-    height: 15px;
-    padding: 15px;
-    color: #fff;
-    cursor: pointer;
-    background-color: #0043c0;
-    border-radius:40px;
 }
 /*Fim Barra de pesquisa*/
 @media(max-width:768px){
-    .SearchContainer{
-        position: absolute;
-        top:-100%;
-    }
     .Icons  .Accessibility, .DarkMode, .UserProfile{
         display:none;
     }

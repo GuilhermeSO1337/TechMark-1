@@ -1,12 +1,31 @@
 import React from "react";
 import Logo from './../logo.svg';
-import styles from './../css/header.module.css';
+import styles from './../css/Header.module.css';
 import { Icon } from '@iconify/react';
-import Switch from '@mui/material/Switch';
-gitgimport MenuIcon from '@mui/icons-material/Menu';
+import { useState } from "react";
+import MenuIcon from '@mui/icons-material/Menu';
+import { Switch } from "@mui/material";
+import SearchBar from './SearchBar';
 
-export default class Header extends React.Component {
-    render() {
+let Menu;
+
+export default function Header(){
+
+    var [ShowMenu, setShowMenu] = useState(false);
+
+    const OpeningStyle = {
+        OpenMenu : {
+            transform: 'translateX(0vh)'
+        }
+    } 
+
+    if(ShowMenu){
+        Menu = <div style={OpeningStyle.OpenMenu}><ul className={styles.MenuDisplay}>
+                    <li>Usuário</li>
+                    <li>Acessibilidade</li>
+                    <li>Tema <Switch id='SwitchButton' /></li>
+                </ul></div>
+    }
         return (
             <header>
                 <div className={styles.TopSection}>
@@ -18,24 +37,14 @@ export default class Header extends React.Component {
                     </div>
                     <div className={styles.Mobile}>
                         <Icon className={styles.MobileSearchIcon} icon="akar-icons:search" />
-                        <MenuIcon className={styles.MenuBtn} id='Button' />
+                        <MenuIcon className={styles.MenuIcon} onClick={() => setShowMenu(!ShowMenu)}/>
                     </div>
                 </div>
                 <hr className={styles.Hr} />
-                <ul className={styles.MenuDisplay}>
-                    <li>Usuário</li>
-                    <li>Acessibilidade</li>
-                    <li>Tema <Switch id='SwitchButton' /></li>
-                </ul>
-                <form action="">
-                    <div className={styles.SearchContainer}>
-                        <div className={styles.SearchBox}>
-                            <input className={styles.Search} type='text' placeholder='Faça uma pesquisa' />
-                            <Icon className={styles.SearchIcon} icon="akar-icons:search" />
-                        </div>
-                    </div>
-                </form>
+                {Menu}
+                <div className={styles.SearchBar}>
+                    <SearchBar/>
+                </div>
             </header>
         );
     }
-}
