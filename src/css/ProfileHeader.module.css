@@ -21,14 +21,13 @@
 }
 /*Banner icons start*/
 .BannerIcons{
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 60px;
     top: 32%;
     bottom:55%;
-    left: 2%;
     color: #fff;
 }
 .BannerIcons .WhatsappIcon{
@@ -62,6 +61,6 @@ color: #C13584 ;
     justify-content: center;
 }
 .ProfilePosition{
-    position: absolute;
-    bottom: -13vh;
+    position: relative;
+    bottom: 10vh;
 }
