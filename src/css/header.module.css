@@ -1,7 +1,7 @@
 header{
     height: 40px;
     margin-top: 43px;
-    margin-bottom: 20vh;
+    margin-bottom: 140px;
 }
 .TopSection{
     margin-left: 43px;
@@ -72,7 +72,7 @@ a .Logo{
 }
 /*Barra de pesquisa*/
 .SearchBar{
-    margin-top: 2vh;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -85,5 +85,8 @@ a .Logo{
         display: flex;
         align-items: center;
     }
-    
+    .SearchBar{
+        position: relative;
+        top: -200px;
+    }
 }

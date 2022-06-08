@@ -1,14 +1,19 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+/*Cada 1rem equivale a 10px*/
 .ProfileInformation{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:  379px;
-    height: 280px;
+    width:  40vw;
+    height: 40vh;
 }
 .ProfilePictureBorder{
-    /* display: block; */
-    /* position: absolute; */
     left: 50%;
     right: 50%;
     bottom: -1%;
@@ -32,13 +37,13 @@
 }
 .ProfileInformation h2{
     font-family: 'Poppins';
-    margin-top: 13px;
-    margin-bottom: 8px;
-    font-size: 32px;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    font-size: 3.2rem;
     font-weight: bold;
 }
 .ProfileInformation p{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: 'Oxygen';
     color: #8f8f8f;
     font-weight: normal;
