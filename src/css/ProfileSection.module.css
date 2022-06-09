@@ -1,3 +1,9 @@
+/* font import from google fonts  */
+/* Poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* Oxygen */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
 html{
     font-size: 62.5%;
 }
@@ -6,12 +12,13 @@ body{
 }
 /*Cada 1rem equivale a 10px*/
 .ProfileInformation{
+    position: relative;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:  40vw;
-    height: 40vh;
+    height: fit-content;
+    width: fit-content;
 }
 .ProfilePictureBorder{
     left: 50%;
@@ -36,7 +43,7 @@ body{
     border-radius: 50%;
 }
 .ProfileInformation h2{
-    font-family: 'Poppins';
+    font-family: 'poppins';
     margin-top: 2vh;
     margin-bottom: 1vh;
     font-size: 3.2rem;

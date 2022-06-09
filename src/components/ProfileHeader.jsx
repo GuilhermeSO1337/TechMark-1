@@ -3,6 +3,7 @@ import styles from './../css/ProfileHeader.module.css';
 import { Icon } from '@iconify/react';
 import './../img/Profile_Picture.jpg';
 import Profile from './CommerceProfile';
+import ProfileInputs from './ProfileInputs';
 
 export default function ProfileHeader(){
     return(
@@ -19,8 +20,10 @@ export default function ProfileHeader(){
             <div className={styles.ProfileFlexPosition}>
                 <div className={styles.ProfilePosition}>
                     <Profile/>
+                    <ProfileInputs/>
                 </div>
             </div>
+            
         </div>
     );
 } 
