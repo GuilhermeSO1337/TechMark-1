@@ -5,25 +5,26 @@ import './../img/Profile_Picture.jpg';
 import Profile from './CommerceProfile';
 import ProfileInputs from './ProfileInputs';
 
-export default function ProfileHeader(){
-    return(
+export default function ProfileHeader() {
+    return (
         <div>
-            <div className={styles.Cover}>
-                <div className={styles.Banner}>
-                <div className={styles.BannerIcons}>
-                    <Icon icon="akar-icons:whatsapp-fill" className={styles.WhatsappIcon}/>
-                    <Icon icon="akar-icons:instagram-fill" className={styles.InstagramIcon} />
-                    <Icon icon="akar-icons:facebook-fill" className={styles.FacebookIcon}/>
+            <div className={styles.ProfileItens}>
+                <div className={styles.Cover}>
+                    <div className={styles.Banner}>
+                        <div className={styles.BannerIcons}>
+                            <Icon icon="akar-icons:whatsapp-fill" className={styles.WhatsappIcon} />
+                            <Icon icon="akar-icons:instagram-fill" className={styles.InstagramIcon} />
+                            <Icon icon="akar-icons:facebook-fill" className={styles.FacebookIcon} />
+                        </div>
+                    </div>
                 </div>
-                </div>
-            </div>
-            <div className={styles.ProfileFlexPosition}>
                 <div className={styles.ProfilePosition}>
-                    <Profile/>
-                    <ProfileInputs/>
+                    <Profile />
+                </div>
+                <div ClassName={styles.Buttons}>
+                    <ProfileInputs />
                 </div>
             </div>
-            
         </div>
     );
 } 

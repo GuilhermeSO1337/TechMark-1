@@ -50,11 +50,13 @@ color: #C13584 ;
 }
 /*Banner icons ends*/
 /*Profile*/
-.ProfileFlexPosition{
-    display: flex;
-    justify-content: center;
+.ProfileItens{
+    
+    position: relative;
+    background-color: #000;
 }
 .ProfilePosition{
-    position: relative;
-    bottom: 9vh;
+    position: absolute;
+    display: flex;
+    bottom:-170px;
 }

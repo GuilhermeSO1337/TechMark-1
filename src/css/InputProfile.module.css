@@ -6,11 +6,11 @@
 
 
 .InputContainer{
-    position: absolute;
     display: flex;
     flex-direction: row;
-    left: 600px;
-    bottom: 105pt;   
+    position: absolute;
+    left: 70vw;
+    bottom: -25px;
 }
 
 button{
