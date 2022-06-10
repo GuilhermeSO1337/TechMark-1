@@ -51,9 +51,10 @@ color: #C13584 ;
 /*Banner icons ends*/
 /*Profile*/
 .ProfileItens{
-    
     position: relative;
-    background-color: #000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
 }
 .ProfilePosition{
     position: absolute;

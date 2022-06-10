@@ -19,6 +19,9 @@ input::placeholder{
     font-weight: 500;
     font-size: 15px;
 }
+input:focus{
+    cursor: text;
+}
 .SearchIcon{
     position: relative;
     left: 30px;
