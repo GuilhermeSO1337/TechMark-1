@@ -1,0 +1,33 @@
+.Publication{
+    border-radius:16px;
+    width: auto;
+    background-color: #fff;
+    position: relative;
+    height: auto;
+    display: flex;
+    margin-top: 60px;
+}
+.ProfilePicture{
+    position: absolute;
+    top:-40px;
+    left: 20px;
+    outline: var(--Publication-WhiteBG-theme) solid 5px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.Content{
+    max-width: 80%;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.Content h2{
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-family: 'poppins';
+}
+.Content p{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'poppins';
+}

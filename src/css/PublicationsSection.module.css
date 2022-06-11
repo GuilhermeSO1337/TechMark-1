@@ -1,0 +1,33 @@
+.PublicationsSection{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+    background-color: var(--Publication-WhiteBG-theme);
+}
+.Tittle{
+    position: absolute;
+    top:-30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    width: 191px;
+    height: 57px;
+    background-color:var(--Section-tittle);
+    font-family: 'poppins';
+    font-weight: bold;
+    color: #fff;
+    outline: #fff solid 6px;
+}
+.PublicationsArea{
+    display: flex;
+    justify-content: center; 
+    width: 100vw;
+    height: 100%;
+    overflow-y: scroll;
+}
+.Publications{
+    width: 40%;
+}

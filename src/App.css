@@ -49,4 +49,7 @@ table {
 :root{
     --shadow-color:rgba(196, 196, 196,0.2);
     --main-color: #0043c0;
+	--light-theme-white:#fff;
+	--Publication-WhiteBG-theme:#EEE;
+	--Section-tittle:#001844;
 }
