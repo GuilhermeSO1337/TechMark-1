@@ -23,7 +23,7 @@
     margin-right: 80px;
     margin-left: 80px;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .Content h2{
     font-weight: 800;
@@ -33,25 +33,11 @@
 }
 .Content p{
     line-height: 30px;
-    font-size: 18px;
+    font-size: 1.8rem;
+    max-height: 10%;
     font-weight: normal;
     font-family: 'poppins';
     margin-bottom: 20px;
-}
-.PublicationsTittle{
-    position: absolute;
-    bottom:-30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 14px;
-    width: 191px;
-    height: 57px;
-    background-color:var(--Section-tittle);
-    font-family: 'poppins';
-    font-weight: bold;
-    color: #fff;
-    outline: #fff solid 6px;
 }
 .Media{
     width: 100%;

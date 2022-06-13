@@ -11,6 +11,7 @@ export default function Commerce(){
             <ProfileHeader/>
             <Map/>
             <PublicationSection/>
+            <div style={{height:'700px',width:'100%'}}></div>
         </main>
     );
 }

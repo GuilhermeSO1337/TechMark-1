@@ -12,7 +12,7 @@ export default function Publication(props){
             <div className={styles.Content}>
                 <h2>{props.tittle}</h2>
                 <p>{props.description}</p>
-                <img src={props.image} alt='' className={styles.Media}/>
+                <img src={props.media} alt='' className={styles.Media}/>
             </div>
         </div>
     );

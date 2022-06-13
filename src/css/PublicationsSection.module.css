@@ -9,15 +9,16 @@
 .PublicationsArea{
     display: flex;
     justify-content: center; 
-    width: 100%;
+    width: 50%;
     height: 100%;
     overflow-y: scroll;
 }
 .Publications{
-    width: 40%;
+    width: 80%;
 }
 .Tittle{
     position: absolute;
+    z-index:1;
     top:-30px;
     display: flex;
     align-items: center;
