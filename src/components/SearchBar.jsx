@@ -1,4 +1,3 @@
-import React from 'react';
 import { Icon } from '@iconify/react';
 import styles from './../css/SearchBar.module.css';
 

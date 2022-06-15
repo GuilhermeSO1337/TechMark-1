@@ -1,11 +1,8 @@
-import React from 'react';
 import styles from './../css/Publication.module.css'
 
 
 export default function Publication(props){
-     if(props.image){
-
-     }
+    console.log(props.media)
     return(
         <div className={styles.Publication}>
             <img src={props.profilePicture} className={styles.ProfilePicture} alt=''/>
@@ -17,3 +14,12 @@ export default function Publication(props){
         </div>
     );
 }
+
+
+// function media(media){
+//       if(media == video){
+//             <video autoPlay={true} muted={true}>
+//                 <source src={props.media} type='video/mp4' className={styles.MediaVideo}/>
+//             </video>
+//     }
+// }

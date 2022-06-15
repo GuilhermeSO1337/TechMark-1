@@ -1,10 +1,9 @@
-import React from 'react';
-import style from './../css/InputProfile.module.css';
+import styles from './../css/InputProfile.module.css';
 import { Icon } from '@iconify/react';
 
 export default function ProfileInputs(){
     return(
-        <div className={style.InputContainer}>
+        <div className={styles.InputContainer}>
             <form action="">
                 <input type='submit' value='Seguir'/>
             </form>

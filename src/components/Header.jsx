@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from './../logo.svg';
 import styles from './../css/Header.module.css';
 import { Icon } from '@iconify/react';

@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './../css/ProfileSection.module.css';
 import './../img/Profile_Picture.jpg';
 import Emphasis from './../img/Emphasis_Icon.svg';

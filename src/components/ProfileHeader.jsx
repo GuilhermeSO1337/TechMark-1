@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './../css/ProfileHeader.module.css';
 import { Icon } from '@iconify/react';
 import './../img/Profile_Picture.jpg';
@@ -21,7 +20,7 @@ export default function ProfileHeader() {
                 <div className={styles.ProfilePosition}>
                     <Profile />
                 </div>
-                <div ClassName={styles.Buttons}>
+                <div className={styles.Buttons}>
                     <ProfileInputs />
                 </div>
             </div>
