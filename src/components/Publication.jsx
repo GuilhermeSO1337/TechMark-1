@@ -1,25 +1,16 @@
 import styles from './../css/Publication.module.css'
+import PublicationMedia from './PublicationMedia';
 
 
-export default function Publication(props){
-    console.log(props.media)
-    return(
+export default function Publication(PublicationData) {
+    return (
         <div className={styles.Publication}>
-            <img src={props.profilePicture} className={styles.ProfilePicture} alt=''/>
+            <img src={PublicationData.ProfilePicture} className={styles.ProfilePicture} alt='' />
             <div className={styles.Content}>
-                <h2>{props.tittle}</h2>
-                <p>{props.description}</p>
-                <img src={props.media} alt='' className={styles.Media}/>
+                <h2>{PublicationData.Tittle}</h2>
+                <p>{PublicationData.Description}</p>
+                <PublicationMedia {...PublicationData}/>
             </div>
         </div>
     );
 }
-
-
-// function media(media){
-//       if(media == video){
-//             <video autoPlay={true} muted={true}>
-//                 <source src={props.media} type='video/mp4' className={styles.MediaVideo}/>
-//             </video>
-//     }
-// }
