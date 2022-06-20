@@ -9,7 +9,7 @@ export default function Publication(PublicationData) {
             <div className={styles.Content}>
                 <h2>{PublicationData.Tittle}</h2>
                 <p>{PublicationData.Description}</p>
-                <PublicationMedia {...PublicationData}/>
+                <PublicationMedia className={styles.PublicationMedia} {...PublicationData}/>
             </div>
         </div>
     );

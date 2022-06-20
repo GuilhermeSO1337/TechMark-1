@@ -10,8 +10,8 @@ let publication= [{
     MediaType:null
 },{
 ProfilePicture:'static/media/Profile_Picture.2a28de9cc240c3058614.jpg',
-Tittle:'Limpe seu computador:',
-Description:'Você sabia que a limpeza de seu computador pode prolongar a vida útil do equipamento? ',
+Tittle:'Montamos o seu computador:',
+Description:'Comprou as peças do seu computador e está com medo de trocar? Vem comigo!',
 MediaDir: '/static/media/video01.015421ae62da53f1d323.mp4',
 MediaType:'.mp4'
 },{

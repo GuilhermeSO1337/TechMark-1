@@ -6,7 +6,7 @@ import PublicationSection from '../components/PublicationSection';
 
 export default function Commerce(){
     return(
-        <main style={{overflowX:'hidden'}}>
+         <main /*style={{overflowX:'hidden'}}*/>
             <Header/>
             <ProfileHeader/>
             <Map/>

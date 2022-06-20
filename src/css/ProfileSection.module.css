@@ -10,7 +10,6 @@ html{
 body{
     font-size: 1.6rem;
 }
-/*Cada 1rem equivale a 10px*/
 .ProfileInformation{
     display: flex;
     flex-direction: column;
