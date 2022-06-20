@@ -1,14 +1,11 @@
 /*Publication Box*/
 .Publication{
     border-radius:16px;
-    width: 80%;
+    max-width: 60%;
     background-color: #fff;
     position: relative;
     max-height: 100%;
     min-width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 60px;
     box-shadow:rgba(0, 0, 0, 0.1) 0 4px 14px;
 }
@@ -24,8 +21,8 @@
 }
 /*Publication content*/
 .Content{
-    max-width: 80%;
-    min-height: 600px;
+    max-width: 100%;
+    min-height: 100px;
     min-width: 50%;
     margin-right: 80px;
     margin-left: 80px;
@@ -52,25 +49,3 @@
     width: 100%;
     height: 100%;
 }
-
-.Content source video{
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
-}
-
-/* .PublicationMedia{
-    width: 100%;
-    height: 100%;
-}
-.PublicationMedia video{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-.PublicationMedia img{
-    width: 100%;
-    height: 100%;
-} */
-
