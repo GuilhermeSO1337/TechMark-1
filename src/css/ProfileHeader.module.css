@@ -12,6 +12,7 @@
         background-size: cover; 
         width: 100%;
         height: 250%;
+        position: relative;
 }
 /*Banner icons start*/
 .BannerIcons{
@@ -56,8 +57,18 @@ color: #C13584 ;
     justify-content: center;
     margin-bottom: 300px;
 }
-.ProfilePosition{
+.Profile{
     position: absolute;
     display: flex;
-    bottom:-170px;
+    width: 100%;
+    bottom: -40px;
+    align-items:center;
+    justify-content: center;
+    z-index: 1;
+}
+.Profile .ProfileInputs{
+    position: absolute;
+    float: right;
+    left: 70%;
+    bottom: 60px;
 }

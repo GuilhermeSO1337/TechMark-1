@@ -9,6 +9,11 @@ export default function ProfileHeader() {
         <div>
             <div className={styles.ProfileItens}>
                 <div className={styles.Cover}>
+                <div className={styles.Profile}>
+                            <Profile/>
+                            <div className={styles.ProfileInputs}><ProfileInputs/></div>
+                            
+                        </div>
                     <div className={styles.Banner}>
                         <div className={styles.BannerIcons}>
                             <Icon icon="akar-icons:whatsapp-fill" className={styles.WhatsappIcon} />
@@ -17,11 +22,7 @@ export default function ProfileHeader() {
                         </div>
                     </div>
                 </div>
-                <div className={styles.ProfilePosition}>
-                    <Profile />
-                </div>
                 <div className={styles.Buttons}>
-                    <ProfileInputs />
                 </div>
             </div>
         </div>
