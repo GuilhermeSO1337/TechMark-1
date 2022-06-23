@@ -1,0 +1,40 @@
+.CommentSection{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+    height: 100%;
+}
+
+.InsertCommentBox{
+    bottom: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:700px;
+    border-radius: 42px 21px 21px 42px;
+    background-color: #fff;
+    outline: #e3e3e3 solid 10px
+}
+.ProfilePicture{
+    background-color: #e3e3e3;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.CommentField{
+    outline: none;
+    border: 0;
+    border-radius: 14px;
+    background-color: #fff;
+    width:500px;
+    height: 60px;
+}
+.SendComment{
+    margin-right: 20px;
+    color:var(--main-color);
+    width: 40px;
+    height: 40px;
+}

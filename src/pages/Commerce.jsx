@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import ProfileHeader from '../components/ProfileHeader';
 import Map from '../components/Map';
 import PublicationSection from '../components/PublicationSection';
+import CommentSection from '../components/CommentSection';
 
 export default function Commerce(){
     return(
@@ -11,7 +12,7 @@ export default function Commerce(){
             <ProfileHeader/>
             <Map/>
             <PublicationSection/>
-            <div style={{height:'700px',width:'100%'}}></div>
+            <CommentSection/>
         </main>
     );
 }
