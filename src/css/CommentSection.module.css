@@ -3,17 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: tomato;
     height: 100%;
 }
-
 .InsertCommentBox{
-    bottom: 10px;
     position: absolute;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width:700px;
+
+    
     border-radius: 42px 21px 21px 42px;
     background-color: #fff;
     outline: #e3e3e3 solid 10px
@@ -27,14 +24,17 @@
 .CommentField{
     outline: none;
     border: 0;
+    padding: 0 90px;
     border-radius: 14px;
     background-color: #fff;
-    width:500px;
+    width:350px;
     height: 60px;
 }
 .SendComment{
-    margin-right: 20px;
     color:var(--main-color);
     width: 40px;
     height: 40px;
+}
+.CommentsArea{
+
 }

@@ -8,9 +8,9 @@ export default function CommentSection(){
                 <Icon className={styles.ProfilePicture} icon="carbon:user-avatar-filled-alt"/>
                 <input className={styles.CommentField} type="text" name="Coment"/>
                 <Icon className={styles.SendComment} icon="fluent:send-16-filled" />
+                <hr/>
         </form>
-        <div className={styles.CommentsArea}>
-
+        <div className={styles.CommentsArea} >
         </div>
     </section>
     )
