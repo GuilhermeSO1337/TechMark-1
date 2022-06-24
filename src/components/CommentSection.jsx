@@ -1,6 +1,19 @@
 import styles from "./../css/CommentSection.module.css";
 import { Icon } from '@iconify/react';
 import ClientComment from "./ClientComment";
+import ProfilePictureAdriana from "./../img/CommentProfilePictures/Adriana_profile.jfif"
+
+let ClientComments =[{
+    UserName : "Adriana M. Pavaro",
+    UserProfilePicture: ProfilePictureAdriana,
+    Comment : "Para vocês um beijo e um pão de queijo!",
+    Time : "16 Agosto de 2023 15:15"
+},{
+    UserName : "Adriana M. Pavaro",
+    UserProfilePicture:"",
+    Comment : "Para vocês um beijo e um pão de queijo!",
+    Time : "18 Agosto de 2023 15:15"
+}]
 
 export default function CommentSection(){
     return(
@@ -19,7 +32,9 @@ export default function CommentSection(){
                 </div>
                 <Icon icon="bi:filter-right" width="40px" color="#525252" cursor="pointer"/>
             </div>
-            <ClientComment/>
+            <div className={styles.Comment}>
+                <ClientComment {...ClientComments[0]}/>
+            </div>
         </div>
     </section>
     )
