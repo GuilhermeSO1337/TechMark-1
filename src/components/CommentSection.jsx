@@ -1,16 +1,30 @@
 import styles from "./../css/CommentSection.module.css";
 import { Icon } from '@iconify/react';
 import ClientComment from "./ClientComment";
-import ProfilePictureAdriana from "./../img/CommentProfilePictures/Adriana_profile.jfif"
+import ProfilePictureAdriana from "./../img/CommentProfilePictures/Adriana_profile.jfif";
+import ProfilePictureRosani from "./../img/CommentProfilePictures/Rosani_profile.jfif";
+import ProfilePictureWesley from "./../img/CommentProfilePictures/Wesley_profile.jfif";
+import ProfilePictureMartinha from "./../img/CommentProfilePictures/Martinha_profile.jfif";
+
 
 let ClientComments =[{
     UserName : "Adriana M. Pavaro",
-    UserProfilePicture: ProfilePictureAdriana,
+    UserProfilePicture: "http://localhost:3000/static/media/Adriana_profile.37adc6aa01ddc2c4fc12.jfif",
     Comment : "Para vocês um beijo e um pão de queijo!",
     Time : "16 Agosto de 2023 15:15"
 },{
-    UserName : "Adriana M. Pavaro",
-    UserProfilePicture:"",
+    UserName : "Rosanni Bertelli",
+    UserProfilePicture:"/static/media/Rosani_profile.026e8b98d09f116002cb.jfif",
+    Comment : "Para vocês um beijo e um pão de queijo!",
+    Time : "18 Agosto de 2023 15:15"
+},{
+    UserName : "Wesley",
+    UserProfilePicture: "/static/media/Wesley_profile.58c6f63ec996da840819.jfif",
+    Comment : "Para vocês um beijo e um pão de queijo!",
+    Time : "18 Agosto de 2023 15:15"
+},{
+    UserName : "Martinha",
+    UserProfilePicture: "/static/media/Martinha_profile.de716a754d74a69dd74e.jfif",
     Comment : "Para vocês um beijo e um pão de queijo!",
     Time : "18 Agosto de 2023 15:15"
 }]
@@ -33,7 +47,7 @@ export default function CommentSection(){
                 <Icon icon="bi:filter-right" width="40px" color="#525252" cursor="pointer"/>
             </div>
             <div className={styles.Comment}>
-                <ClientComment {...ClientComments[0]}/>
+                {ClientComments.map((ClientComments)=>(<ClientComment {...ClientComments}/> ))}
             </div>
         </div>
     </section>
