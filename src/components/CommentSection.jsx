@@ -49,6 +49,13 @@ export default function CommentSection(){
             <div className={styles.Comment}>
                 {ClientComments.map((ClientComments)=>(<ClientComment {...ClientComments}/> ))}
             </div>
+            <div className={styles.Pages}>
+                <Icon className={styles.Chevrons} icon="akar-icons:chevron-left" color="#999" width="35px"/>
+                <span className={styles.SelectedIndex}>1</span>
+                <span>2</span>
+                <span>3</span>
+                <Icon className={styles.Chevrons} icon="akar-icons:chevron-right" color="#999" width="35px"/>
+            </div>
         </div>
     </section>
     )

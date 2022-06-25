@@ -69,3 +69,25 @@ input[type=text].CommentField{
     justify-content: center;
     align-items: center;
 }
+.Pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+.Pages span{
+    cursor: pointer;
+    padding: 14px 10px;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 10px ;
+    border-radius: 8px;
+    background-color: #525252;
+}
+.Pages .SelectedIndex{
+    background-color: var(--main-color);
+    cursor:default;
+}
+.Pages .Chevrons{
+    cursor: pointer;
+}
