@@ -16,10 +16,12 @@
 }
 .Comment h2{
     margin: 16px 0 0 100px;
+    font-family: 'poppins';
     font-size: 18px;
     font-weight:600;
 }
 .Comment .CommentText{
+    font-family: 'poppins';
     margin: 20px 10% 50px 100px;
 }
 .Time{
