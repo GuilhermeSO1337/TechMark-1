@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 110vh;
+    height: 100vh;
     width: 100%;
 }
 .GalleryContent{
@@ -34,35 +34,33 @@
 .GalleryPictures{
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
 }
 
 .MainPicture{
     display: flex;
+    flex-direction: column;
     height: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 .MainPictureContent{
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    height: 70%;
+    height: 65%;
 }
 
-.MainPictureContent h3{
+.MainPicture h3{
     font-family: 'poppins';
     font-size: 20px;
     margin-bottom: 10px;
     font-weight: 600;
 }
 
-.MainPictureContent p{
-    margin-top: 10px;
+.MainPicture p{
+
     font-weight: 500;
     font-family: 'poppins'; 
 }
@@ -100,4 +98,45 @@
 .PicturesCollection img{
     margin-bottom: 25px;
     max-width: 85%;
+}
+
+@media (max-width:1538px){
+    .GalleryContent{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 80%;
+    }
+
+    .MainPictureContent{
+        height: 60%;
+        width: 100vw;
+    }
+
+    .MainPictureContent img{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .PicturesCollection, .PicturesCollectionImages{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .PicturesCollection{
+        position: absolute;
+        top: 35%;
+    }
+
+    .PicturesCollectionImages img{
+        width: 15%;
+        margin-right: 10px;
+    }
+
+
+    .Chevron{
+        display: none;
+    }
 }

@@ -68,7 +68,15 @@ color: #C13584 ;
 }
 .Profile .ProfileInputs{
     position: absolute;
-    float: right;
     left: 70%;
     bottom: 60px;
+}
+
+@media (max-width:800px){
+    .Profile .ProfileInputs{
+        position: static;
+    }
+    .Profile{
+        flex-direction: column-reverse;
+    }
 }

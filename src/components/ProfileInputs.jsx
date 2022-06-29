@@ -7,7 +7,7 @@ export default function ProfileInputs(){
             <form action="">
                 <input className={styles.FollowButton} type='submit' value='Seguir'/>
             </form>
-            <button><Icon icon="bi:send-fill" width='24px'/></button>
+            <button className={styles.SendMensagem}><Icon icon="bi:send-fill" width='24px'/></button>
         </div>
     );
 }

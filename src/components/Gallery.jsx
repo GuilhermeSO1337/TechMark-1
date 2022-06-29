@@ -32,11 +32,11 @@ export default function Gallery(){
             <div className={styles.GalleryContent}>
                 <div className={styles.GalleryPictures}>
                     <div className={styles.MainPicture}>
-                        <div className={styles.MainPictureContent}>
-                            <h3>{GalleryPicture[0].title}</h3>
+                        <h3>{GalleryPicture[0].title}</h3>
+                        <div className={styles.MainPictureContent}>                          
                             <img src={GalleryPicture[0].picture} alt=""/>
-                            <p>{GalleryPicture[0].description}</p>
                         </div>
+                        <p>{GalleryPicture[0].description}</p>
                     </div>
                 </div>
                 <div className={styles.PicturesCollection}>

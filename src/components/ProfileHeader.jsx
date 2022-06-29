@@ -9,10 +9,9 @@ export default function ProfileHeader() {
         <div>
             <div className={styles.ProfileItens}>
                 <div className={styles.Cover}>
-                <div className={styles.Profile}>
+                        <div className={styles.Profile}>
                             <Profile/>
                             <div className={styles.ProfileInputs}><ProfileInputs/></div>
-                            
                         </div>
                     <div className={styles.Banner}>
                         <div className={styles.BannerIcons}>

@@ -57,3 +57,17 @@ body{
     width: 52px;
     height: 69px;
 }
+
+@media(max-width:828px){
+    .ProfileInformation h2{
+        font-size: 2.90rem;
+    }
+    .ProfilePictureBorder{
+        width: 150px;
+        height: 150px;
+    }
+    .ProfileInformation .Emphasis{
+        width: 48px;
+        height: 65px;
+    }
+}
