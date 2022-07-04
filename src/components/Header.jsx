@@ -1,5 +1,5 @@
 import Logo from './../logo.svg';
-import styles from './../css/Header.module.css';
+import styles from './../css/header.module.css';
 import { Icon } from '@iconify/react';
 import { useState } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
